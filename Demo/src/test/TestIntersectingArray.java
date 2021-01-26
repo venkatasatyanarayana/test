@@ -31,6 +31,7 @@ public class TestIntersectingArray {
 		List<Integer> result = intersectArray.findInterctingElements(array1, array2);
 		System.out.println("negTestFindInterctingElements result="+result);
 		Assert.assertEquals(true, result.isEmpty());
+		Assert.assertTrue(true);
 	}
 
 }
