@@ -5,7 +5,7 @@ import java.util.List;
 
 public class IntersectingArray {
 	public List<Integer> findInterctingElements(int[] array1, int[] array2){
-		List<Integer> result = new ArrayList<>();
+		List<Integer> response = new ArrayList<>();
 		int[] source;
 		int[] destination;
 		if(array1.length>array2.length){
@@ -18,11 +18,11 @@ public class IntersectingArray {
 				for(int index=0;index<source.length;index++){
 					for(int dindex=0;dindex<destination.length;dindex++){
 						if(source[index]==destination[dindex]){
-							result.add(source[index]);
+							response.add(source[index]);
 						}
 					}
 			
 			}
-				return result;
+				return response;
 	}
 }
