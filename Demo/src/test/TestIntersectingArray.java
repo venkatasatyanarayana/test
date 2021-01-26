@@ -20,6 +20,7 @@ public class TestIntersectingArray {
 		System.out.println("posTestFindInterctingElements result="+result);
 		Assert.assertEquals(true, result.contains(3));
 		Assert.assertEquals(true, result.contains(9));
+		Assert.assertTrue(true);
 	}
 	
 	@Test
